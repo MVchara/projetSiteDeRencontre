@@ -45,27 +45,30 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-<meta charset="UTF-8">	
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-<LINK rel="stylesheet" href="connexion.css">
-<title> Site De Rencontre </title>
-</head>
-<body>
-<div class="head">
-<a href="index.php">Retour à l'accueil</a>
-<header>
-<section> 
-<h1>Espace de Connexion Admin</h1>
-<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
-<label for="username">Pseudonyme</label><br>
-<input type="text" id="username" name="pseudonyme" required><br>
-<label for="password">Mot de passe:</label><br>
-<input type="password" id="password" name="mdp" required><br>
-<label for="codeabonnement"> Code d'abonnement:  </label>
-<input type="text" id="codeabonnement" name="codeabonnement" required><br>
-<button type="submit" value="Valider">Valider</button>
-</form>
-</body>
+    <head>
+        <meta charset="UTF-8">	
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <LINK rel="stylesheet" href="connexion.css">
+        <title> Site De Rencontre </title>
+    </head>
+    <body>
+        <div class="head">
+            <a href="index.php">Retour à l'accueil</a>
+            <header>
+                <section> 
+                    <h1>Espace de Connexion Admin</h1>
+                    <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST">
+                        <label for="username">Pseudonyme</label><br>
+                        <input type="text" id="username" name="pseudonyme" required><br>
+                        <label for="password">Mot de passe:</label><br>
+                        <input type="password" id="password" name="mdp" required><br>
+                        <label for="codeabonnement"> Code d'abonnement:  </label>
+                        <input type="text" id="codeabonnement" name="codeabonnement" required><br>
+                        <button type="submit" value="Valider">Valider</button>
+                        </form>
+                </section>
+            </header>
+        </div>
+    </body>
 </html>
