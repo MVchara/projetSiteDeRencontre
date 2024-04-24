@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "MV_chara";
-$password = "DaVinciCode3%)";
+$username = "enter your username here";
+$password = "enter your password here";
 $dbname = "config";
 
 // Création de la connexion
