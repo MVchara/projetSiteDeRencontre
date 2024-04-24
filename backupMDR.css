@@ -1,0 +1,136 @@
+body{
+    font-family: 'Source code pro', Calibri, serif;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+    overflow-y: hidden;
+}
+
+
+.gauche_contacts{
+    display: flex;
+    flex-direction: column;
+    background-color: palevioletred;
+    width: 30%;
+    left: 0%;
+}
+
+#Titre{
+    border: 2px solid black;
+    text-align: center;
+}
+
+#droite_chat{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 70%;
+    right: 0%;
+}
+
+#les_contacts ul li{
+    display: block;
+    margin-top: 1%;
+}
+
+#les_contacts{
+    text-align: center;
+}
+
+#Centre{
+    display: flex;
+}
+
+#contacts{
+    width:100%;
+    justify-content: center;
+    background-color: aqua;
+}
+
+.messages{
+    overflow-y: visible;
+}
+
+.messages .recus{
+    border: 1px solid black;
+    border-radius: 20px;
+    float: left;
+    margin-top: 2%;
+}
+
+.messages .envoyes{
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 2%;
+    text-align: right;
+    margin-left: 30%;
+}
+
+.ecrire{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+.head{
+    background-color:rgb(75, 28, 113);
+    width: 100%;
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+.acceuil:hover{
+	border-top:5px solid #FF9967;
+	background-color: RGBo(228, 77, 38, 0.15);
+}
+
+.amicale:hover{
+	border-top:5px solid #FFA778;
+	background-color: RGBo(000, 112, 192, 0.15);
+}
+
+.amoureuse:hover{
+	border-top:5px solid #FFB58A;
+	background-color: RGBo(241, 211, 79, 0.15);
+}
+
+.connexion:hover{
+	border-top:5px solid #FFC39B;
+	background-color: RGBo(220, 220, 220, 0.15);
+}
+
+nav{
+	width: 100%;
+	background-color: #4B1C71;
+}	
+
+nav ul{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+
+nav li{
+	list-style-type: none;
+	float: left;
+}
+
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	padding: 20px 30px;
+	color: #fff;
+}
+
+nav li:hover a{
+	padding: 15px 30px 20px 30px;
+}
